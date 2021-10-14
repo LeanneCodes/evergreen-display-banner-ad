@@ -48,18 +48,20 @@ body {
     right: 0px;
 }
 
-.uppercase {
+p {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-transform: uppercase;
     font-size: 40px;
-    font-stretch: ultra-condensed;
     color: white;
     position: absolute;
     top: 30px;
     left: 30px;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 i {
-    size: 2px;
+    font-size: 20px;
     color: white;
 }
