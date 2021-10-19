@@ -96,4 +96,13 @@ tl.to(textFive, 2, {
     ease: Sine.easeIn,
 });
 
+tl.from(webLink, 1, {
+    x: -200,
+    ease: Sine.easeOut,
+    opacity: 0,
+});
 
+tl.to(webLink, 2, {
+    x: 0,
+    ease: Sine.easeIn,
+});
