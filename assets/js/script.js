@@ -1,13 +1,12 @@
 var imageOne = document.getElementById("bg1");
 var imageTwo = document.getElementById("bg2");
-var evergreenLogo = document.getElementById("logo");
-var product = document.getElementById("packshot");
 var textOne = document.getElementById("text1");
 var textTwo = document.getElementById("text2");
 var textThree = document.getElementById("text3");
 var textFour = document.getElementById("text4");
 var textFive = document.getElementById("text5");
 var webLink = document.getElementById("cta");
+var bounceX = document.getElementById("bounce");
 var tl = new TimelineMax({repeat: 0});
 
 tl.from(imageOne, {
@@ -91,7 +90,7 @@ tl.from(textFive, 1.5, {
     ease: Sine.easeOut,
 });
 
-tl.to(textFive, 2, {
+tl.to(textFive, 1, {
     x: 0,
     ease: Sine.easeIn,
 });
@@ -102,7 +101,20 @@ tl.from(webLink, 1, {
     opacity: 0,
 });
 
-tl.to(webLink, 2, {
+tl.to(webLink, 1, {
     x: 0,
     ease: Sine.easeIn,
 });
+
+tl.from(bounceX, {
+    x: 0,
+})
+
+tl.to(bounceX, {
+    x: 8,
+    repeat: 2,
+})
+
+tl.to(bounceX, {
+    x: 0,
+})
