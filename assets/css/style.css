@@ -54,7 +54,7 @@ p {
     font-size: 40px;
     color: white;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 30px;
 }
 
@@ -62,7 +62,15 @@ p {
     text-transform: uppercase;
 }
 
-span i {
+button {
+    background-color: green;
+    border: 1px solid green;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
     color: white;
-
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 23px;
+    left: 30px;
 }

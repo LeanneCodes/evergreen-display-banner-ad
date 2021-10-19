@@ -7,6 +7,7 @@ var textTwo = document.getElementById("text2");
 var textThree = document.getElementById("text3");
 var textFour = document.getElementById("text4");
 var textFive = document.getElementById("text5");
+var webLink = document.getElementById("cta");
 var tl = new TimelineMax({repeat: 0});
 
 tl.from(imageOne, {
