@@ -13,44 +13,44 @@ tl.from(imageOne, {
     opacity: 1,
 });
 
-tl.from(textOne, 1.5, {
+tl.from(textOne, 1, {
     x: 0,
     ease: Sine.easeOut,
 });
 
-tl.to(textOne, 1.5, {
+tl.to(textOne, 1, {
     x: -200,
     ease: Sine.easeIn,
     opacity: 0.3,
 });
 
-tl.from(textTwo, 1.5, {
+tl.from(textTwo, 1, {
     x: -200,
     ease: Sine.easeOut,
 });
 
-tl.to(textTwo, 2, {
+tl.to(textTwo, 1, {
     x: 0,
     ease: Sine.easeIn,
 });
 
-tl.to(textTwo, 1.5, {
+tl.to(textTwo, 1, {
     x: -200,
     ease: Sine.easeOut,
     opacity: 0.3,
 });
 
-tl.from(textThree, 1.5, {
+tl.from(textThree, 1, {
     x: -200,
     ease: Sine.easeOut,
 });
 
-tl.to(textThree, 2, {
+tl.to(textThree, 1, {
     x: 0,
     ease: Sine.easeIn,
 });
 
-tl.to(textThree, 1.5, {
+tl.to(textThree, 1, {
     x: -200,
     ease: Sine.easeOut,
     opacity: 0.3,
@@ -69,23 +69,23 @@ tl.to(imageTwo, {
     opacity: 1,
 })
 
-tl.from(textFour, 1.5, {
+tl.from(textFour, 1, {
     x: -200,
     ease: Sine.easeOut,
 });
 
-tl.to(textFour, 2, {
+tl.to(textFour, 1, {
     x: 0,
     ease: Sine.easeIn,
 });
 
-tl.to(textFour, 1.5, {
+tl.to(textFour, 1, {
     x: -200,
     ease: Sine.easeOut,
     opacity: 0.3,
 });
 
-tl.from(textFive, 1.5, {
+tl.from(textFive, 1, {
     x: -200,
     ease: Sine.easeOut,
 });
@@ -101,7 +101,7 @@ tl.from(webLink, 1, {
     opacity: 0,
 });
 
-tl.to(webLink, 1, {
+tl.to(webLink, 0.5, {
     x: 0,
     ease: Sine.easeIn,
 });
@@ -111,7 +111,7 @@ tl.from(bounceX, {
 })
 
 tl.to(bounceX, {
-    x: 8,
+    x: 5,
     repeat: 2,
 })
 
